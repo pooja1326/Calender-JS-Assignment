@@ -1,0 +1,92 @@
+.calender {
+  margin-top: 100px;
+}
+.calender .year-month {
+  display: flex;
+}
+.calender .header-year {
+  margin-left: 25px;
+}
+.calender .header-year #listOfYear {
+  font-size: 15px;
+}
+.calender .header-month {
+  margin-left: 30px;
+}
+.calender .header-month #listOfMonth {
+  margin-top: 5px;
+}
+.calender .wrapper {
+  display: flex;
+  margin-top: 5%;
+}
+.calender .month-margin {
+  margin-left: 90px;
+}
+
+#main {
+  margin-top: 30px;
+}
+
+.month {
+  display: flex;
+  margin-top: 13px;
+  justify-content: space-between;
+}
+.month .next-button {
+  margin-left: 85px;
+}
+
+.weekends {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 10px;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 16px;
+}
+.days .button {
+  padding: 3px 5px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+.days .button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.days .number-of-days {
+  width: 30px;
+  border-radius: 4px;
+}
+.days div {
+  width: 14.28%;
+  margin-bottom: 10px;
+  padding: 1px;
+}
+.days .current-date {
+  background-color: #007bff;
+  color: #fff;
+}
+
+@media (max-width: 420px) {
+  .calender .year-month {
+    display: block;
+  }
+  .calender .year-month .header-year #listOfYear {
+    width: 85%;
+    margin-left: 4px;
+  }
+  .calender .year-month .header-month #listOfMonth {
+    width: 86%;
+  }
+  .calender .display-date-year {
+    margin-left: 43px;
+  }
+}/*# sourceMappingURL=main.css.map */

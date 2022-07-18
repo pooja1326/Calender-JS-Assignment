@@ -1,0 +1,118 @@
+.calender {
+    margin-top: 100px;
+
+    .year-month {
+        display: flex;
+    }
+
+    .header-year {
+        margin-left: 25px;
+
+        #listOfYear {
+            font-size: 15px;
+        }
+    }
+
+    .header-month {
+        margin-left: 30px;
+
+        #listOfMonth {
+            margin-top: 5px;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        margin-top: 5%;
+    }
+
+    .month-margin {
+        margin-left: 90px;
+    }
+}
+
+#main {
+    margin-top: 30px;
+}
+
+.month {
+    display: flex;
+    margin-top: 13px;
+    justify-content: space-between;
+
+    .next-button {
+        margin-left: 85px;
+    }
+}
+
+.weekends {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 10px;
+}
+
+.days {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 16px;
+
+    .button {
+        padding: 3px 5px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        border: none;
+    }
+
+    .button:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .number-of-days {
+        width: 30px;
+        border-radius: 4px;
+    }
+
+    div {
+        width: 14.28%;
+        margin-bottom: 10px;
+        padding: 1px;
+    }
+
+    .current-date {
+        background-color: #007bff;
+        color: #fff;
+    }
+}
+
+
+
+@media (max-width: 420px) {
+    .calender {
+        .year-month {
+            display: block;
+
+            .header-year {
+
+                #listOfYear {
+                    width: 85%;
+                    margin-left: 4px;
+                }
+            }
+
+            .header-month {
+                #listOfMonth {
+                    width: 86%;
+
+                }
+            }
+        }
+
+        .display-date-year {
+            margin-left: 43px;
+        }
+    }
+}
